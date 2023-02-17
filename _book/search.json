@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "search-bug",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html#non-github-pages-site-e.g.-netlify",
+    "href": "summary.html#non-github-pages-site-e.g.-netlify",
+    "title": "2  How to set a redirect",
+    "section": "2.1 Non GitHub pages site (e.g. Netlify)",
+    "text": "2.1 Non GitHub pages site (e.g. Netlify)\nReplace the content of the current website with a index.html and 404.html files both containing:\n<html>\n<head>\n<meta http-equiv=\"refresh\" content=\"0;URL=https://docs.ropensci.org/<pkgname>/\">  \n</head>\n</html>"
+  },
+  {
+    "objectID": "summary.html#github-pages",
+    "href": "summary.html#github-pages",
+    "title": "2  How to set a redirect",
+    "section": "2.2 GitHub pages",
+    "text": "2.2 GitHub pages\nYou can setup the redirect from your main user gh-pages repository:\n\ncreate a new repository (if you don’t have one yet): https://github.com/<username>/<username>.github.io.\nIn this repository create a directory <pkgname> containing 2 files: a index.html and 404.html file, which both redirect to the new location (see previous subsection).\nTest that https://<username>.github.io/<pkgname>/index.html now redirects."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]
